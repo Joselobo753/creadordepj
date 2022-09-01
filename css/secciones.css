@@ -1,0 +1,134 @@
+.secciones{
+    display: grid;
+    display: grid;
+    grid-template-columns:  22% 22% 22% 31%;
+    grid-template-rows: 20% 65% 15%;
+    gap: 1%;
+}
+.secciones2{
+    padding:  1%;
+
+    
+    display: block;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+.titulo-centralizado{
+    text-align: center;
+    display: block;
+    font-size: 4 em;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-size: 1em;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.menuder{
+    grid-row: 1/4;
+    padding:  1%;
+}
+aside{
+    border:2px solid #cccccc;
+    display: block;
+    grid-column: 4/4;
+    grid-row: 2;
+    
+}
+.conte{
+    align-content: center ;
+    padding: 5%;
+    border:px solid white;
+    border-radius: 15px;
+    box-shadow: -1px 1px 45px 4px rgba(255, 255, 255, 0) inset;
+    -webkit-box-shadow: -1px 1px 45px 4px rgba(255,255,255,0) inset;
+    -moz-box-shadow: -1px 1px 45px 4px rgba(255,255,255,0) inset;
+}
+.conte h1, .conte h4{
+    padding: 1%;
+}
+.conte p{
+    display: block;
+}
+.conte:hover{
+    box-shadow: -1px 1px 45px 4px rgba(255,255,255,0.77) inset;
+    -webkit-box-shadow: -1px 1px 45px 4px rgba(255,255,255,0.77) inset;
+    -moz-box-shadow: -1px 1px 45px 4px rgba(255,255,255,0.77) inset;
+    transition: 0.5s;
+}
+.ubicacionRecua{
+    display: flex;
+    grid-column: 1/2;
+}
+.recua{
+    
+    padding: 1%;
+    border: 1px solid black;
+    width: 50%;
+    background: white;
+    color: black;
+    text-align: center;
+    font-style: italic ;
+    
+}
+.lista{
+    padding: 1%;
+    display: block;
+    text-decoration: none;
+}
+.lista a{
+    padding:1%;
+    border: 1px solid white;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+   color: black;
+   border-radius: 10px;
+   -webkit-box-shadow: inset 0px 74px 43px -44px rgba(255,255,255,0.73);
+-moz-box-shadow: inset 0px 74px 43px -44px rgba(255,255,255,0.73);
+box-shadow: inset 0px 74px 43px -44px rgba(255,255,255,0.73);
+}
+.lista a:hover{
+    background:white;
+    color: white;
+    scale: 1.02;
+    transition: 1.5s;
+    -webkit-box-shadow: inset 0px 74px 43px -44px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 74px 43px -44px rgba(0,0,0,1);
+box-shadow: inset 0px 74px 43px -44px rgba(0,0,0,1);
+
+}
+.contGlo{
+    width: 100%;
+    border: 1px solid green;
+    display: block;
+    padding: 5%;
+    text-align: center;
+}
+.galeria{
+    height: 50%;
+}
+.itemsCarrusel{
+    border: 1 px black;
+    height: 25%;
+    position: relative;
+}
+.carrusel{
+    background-color: aquamarine;
+    height: 20%;
+}
+.flechascarrusel{
+    background-color: beige;
+    height: 5%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}

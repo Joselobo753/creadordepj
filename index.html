@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creador de pj</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="css/javascript.js"></script>
+    <link rel="icon" href="img/pixel_arthas_by_darksteelpenguin_d9l5ldt-250t.ico">
+</head>
+
+<body>
+    <div>
+    <header class="hero">
+
+        <nav class="nav container" id="nav">
+            <div>
+            <h2 class="nav__logo">Cree su</h2>
+            <h2 class="nav__logo">personaje</h2>
+             </div>
+            <ul class="nav__links">
+                <details class="detadao">
+                    <summary>Personaje - dao</summary>
+                <li class="nav__item">
+                    <button type="button" id="btn-encriptar" onclick="perdao()">Crear personaje- dao</button>
+                </li>
+                <div>
+                <li class="nav__item">
+                    <textarea name="" rows="5" cols="30" id="area2" >Su cultista aqui</textarea>
+                </div>
+                </li>
+                <li class="nav__item">
+                    <button type="button" onclick="copydao()">Copiar</button>
+                </li>
+                <li class="nav__item">
+                    <details>
+                        <summary>Reset</summary>
+                        <button type="reset" onclick="reset()" id="reset">reset</button>
+                </details>
+                </li>
+                </details>
+                <details class="detamago">
+                    <summary >Personaje - Mago</summary>
+                        <li class="nav__item">
+                            <button type="button" id="btn-encriptar" onclick="magia()">Crear personaje- dao</button>
+                        </li>
+                        <li class="nav__item">
+                            <div>
+                            <textarea name="" rows="5" cols="30" id="text-area2" >Su mago aqui</textarea>
+                           </div>
+                        </li>
+                        <li class="nav__item">
+                            <button type="button" onclick="copy()">Copiar</button>
+                        </li>
+                        <li class="nav__item">
+                            <details>
+                                <summary>Reset</summary>
+                                <button type="reset" onclick="reset()" id="reset">reset</button>
+                                <textarea name="" rows="&" cols="00" id="area"></textarea>
+                            </details>
+                    </summary>
+                </details>
+                <details>
+                    <summary> Agregar Dao </summary>
+                    <li><textarea name="" id="" cols="30" rows="10" id="agrega">Dao por agregar</textarea>
+                        <button type="button" onclick="agregar()">agregar dao</button>
+                    </li>
+                
+
+                </details>
+            </ul>
+            
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="img/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="img/close.svg" class="nav__icon">
+            </a>
+            
+        </nav>
+        
+    </header>
+   
+       <div>
+        <h1 id="fraces"></h1>
+       </div>
+   
+
+        
+        
+</body>
+
+</html>

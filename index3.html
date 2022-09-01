@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creador de pj</title>
+    <link rel="stylesheet" href="css/estilos1.css">
+    <link rel="stylesheet" href="css/secciones.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="css/javascript.js"></script>
+    <link rel="icon" href="img/pixel_arthas_by_darksteelpenguin_d9l5ldt-250t.ico">
+</head>
+
+<body>
+  
+    <header class="hero">
+
+        <nav class="nav container" id="nav">
+            <div>
+            <h2 class="nav__logo" style="border: 1px white;">Juego de rol pandora</h2>
+ 
+             </div>
+            <ul class="nav__links">
+                <details class="detadao">
+                    <summary>Personaje - dao</summary>
+                <li class="nav__item">
+                    <button type="button" id="btn-encriptar" onclick="perdao()">Crear personaje- dao</button>
+                </li>
+                <div>
+                <li class="nav__item">
+                    <textarea name="" rows="5" cols="30" id="area2" >Su cultista aqui</textarea>
+                </div>
+                </li>
+                <li class="nav__item">
+                    <button type="button" onclick="copydao()">Copiar</button>
+                </li>
+                <li class="nav__item">
+                    <details>
+                        <summary>Reset</summary>
+                        <button type="reset" onclick="reset()" id="reset">reset</button>
+                </details>
+                </li>
+                </details>
+                <details class="detamago">
+                    <summary >Personaje - Mago</summary>
+                        <li class="nav__item">
+                            <button type="button" id="btn-encriptar" onclick="magia()">Crear personaje- dao</button>
+                        </li>
+                        <li class="nav__item">
+                            <div>
+                            <textarea name="" rows="5" cols="30" id="text-area2" >Su mago aqui</textarea>
+                           </div>
+                        </li>
+                        <li class="nav__item">
+                            <button type="button" onclick="copy()">Copiar</button>
+                        </li>
+                        <li class="nav__item">
+                            <details>
+                                <summary>Reset</summary>
+                                <button type="reset" onclick="reset()" id="reset">reset</button>
+                                <textarea name="" rows="&" cols="00" id="area"></textarea>
+                            </details>
+                    </summary>
+                </details>
+                <details>
+                    <summary> Agregar Dao </summary>
+                    <li><textarea name="" id="" cols="30" rows="10" id="agrega">Dao por agregar</textarea>
+                        <button type="button" onclick="agregar()">agregar dao</button>
+                    </li>
+                
+
+                </details>
+            </ul>
+            
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="img/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="img/close.svg" class="nav__icon">
+            </a>
+            
+        </nav>
+        
+    </header>
+    <div class="secciones">
+    <section class="menuder">
+    <aside class="lista">
+        <ul class="titulo-centralizado" >Historias nuevas</ul>
+        <a href="#sec1">olvido</a>
+        <a href="#sec2">Hambre</a>
+        <a href="#sec3">victoria</a>
+        <a href="#sec4">Vida</a>
+        <a href="#sec5">Muerte</a>
+        <a href="#sec6">Caos</a>
+        <a href="#sec7">Guerra</a>
+        
+
+    </aside>
+    <aside class="glorario">
+        <div class="contGlo">
+        <h1>glosario</h1>
+        </div>
+        <details >
+        <summary class="detaGlo">dao</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reprehenderit. Voluptas harum animi, quo, iste consequatur officiis excepturi quas laborum soluta quae voluptatibus itaque ad enim voluptatem similique tenetur explicabo.</p>
+        </details>
+    </aside>
+    <aside class="galeria">
+        <div class="itemsCarrusel">
+            <div class="carrusel">a</div>
+            <div class="flechascarrusel">
+                <i>T</i>
+                <i>B</i>
+            </div>
+        </div>
+    </aside>
+    </section>
+
+   <section class="secciones2">
+        
+        <section id="sec1">
+    <div class="conte">
+                <h1 class="titulo-centralizado" id="olvido">Pandora olvido</h1>
+                <h4>Lugar donde no existe nada solo conocimiento pero ¿Vale el precio?</h4>
+                
+                
+                <p style="vertical-align: middle;">La meca de los investigadores, el valor de un ser esta delimitado por la capacidad de investigación que tiene, que tanto puede averiguar, aprender, experimentar, sus residentes año a año deben donar nuevos conocimientos a su plano haciéndolo progresar en cualquier forma posible y demostrando su capacidad, de lo contrario olvidan una parte de sus conocimientos, la muerte, es el olvidarlo todo y perder el significado de la existencia. Aquí no existen seres elegidos, todos tienen las mismas posibilidades como existencias iguales</p>
+                <div class="recua">
+                    <img src="img/Salar-de-Uyuni-Bolivia-560x420.jpg" alt="mago">
+                    <p>Algunas cosas se hacen tan nuestras que las olvidamos.</p>
+                    </div>
+
+     </div>
+        </section>
+
+    
+    <div class="conte">
+        <section id="sec2">
+            <h1 class="titulo-centralizado">Pandora Hambre</h1>
+            <h4> El cazador suele ser el que mas "hambre tiene"</h4>
+            
+            <p>el pandora donde solo habitan bestias, la ley de la jungla en su máxima expresión, las bestias compiten todo el tiempo para evolucionar combatiendo entre si, aquí la victoria implica aprender una habilidad del derrotado, y para el derrotado implica la muerte, su objetivo es ascender a las bestias mas poderosas que puedan llegar a concebirse, sin defectos, sinónimos de invencibilidad y poder absoluto. Aquí tampoco existen elegidos, solo bestias que sobreviven por mérito propio</p>
+            <div class="recua">
+            <img src="img/hambre.jpg" alt="mago">
+            <p>El hambre hace salir al lobo del bosque.</p>
+            </div>
+        </section>
+
+    </div>
+   
+    <div class="conte">
+        <section id="sec3">
+            <h1 class="titulo-centralizado">Pandora victoria</h1>
+            <h4>El diplomático es una persona que primero piensa dos veces y finalmente no dice nada.</h4>
+            <p>La tierra de los reyes y líderes supremos, tienen lugar otra clase de guerras, intrigas y políticas sin fin, aquí la raza no importa sino la capacidad de mando, la ascensión en este plano se limitan a los grandes líderes políticos, militares, filosóficos o religiosos, aquí el carisma y la administración reinan como ley básica, no existe la resurrección como tal. Pandora victoria elige a sus soberanos desde el nacimiento, tal como son elegidos los héroes en guerra, en  victoria nación los reyes, cuyas existencias están llenas de suerte y plagadas de bendiciones, los reyes obtienen poder e influencia mientras mas súbditos tengan, y mas crezcan es las artes de la pluma, la política, la diplomacia, etc</p>            
+            <div class="recua">
+            <img src="img/victoria.jpeg" alt="mago">
+            <p>La escalera al trono esta hecha de huesos</p>
+            </div>
+        </section>
+
+    </div>
+    <div class="conte">
+        <section id="sec4">
+            <h1 class="titulo-centralizado">Pandora vida</h1>
+            <h4>La reencarnación no te ayudará si en la próxima encarnación sigues sin saber quién eres.</h4>
+            <p>El pandora de los eternos, el pandora sin muerte, donde sus habitantes no conocen las despedidas, pero tampoco los nacimientos, todo se trata de reencarnaciones cada vez que se “muere” el trabajo de cada individuo está dado por la estirpe del nacimiento, el que fue rey ayer puede despertarse hoy siendo un obrero de la construcción, y su posición es inamovible, los recuerdos de vidas pasadas son mantenidos, un reducto de cultura, pero también de estancamiento, de seguridad, pero también de falta de emociones, un mundo increíblemente complejo, y su objetivo de ascensión es aprender sobre la importancia de los ciclos, de las posiciones y los significados profundos</p>
+            <div class="recua">
+            <img src="img/vida.jpeg" alt="mago">
+            <p>Si crees en la reencarnación, no te rías de la fealdad del sapo.</p>
+            </div>
+        </section>
+
+    </div>
+   
+    <div class="conte">
+        <section id="sec5">
+            <h1 class="titulo-centralizado">Pandora Muerte</h1>
+            <h4>----</h4>
+            <p>Quizás sería más sencillo entenderlo como un inframundo, donde los seres de los otros pandora renacen después de su muerte, forma parte vital de los ciclos entre los del universo, toda su superficie está cubierta del miasma de la muerte, sería la muerte instantánea para cualquier ser vivo que entrase en contacto con ella, pero es el oxígeno de los muertos, mientras vivan en ellas, vivirán tanto como su propósito los mantenga firmes, les permite mantener pensamientos complejos y por ello las culturas de los muertos son únicas , sus habitantes para mantenerse cuerdos durante la eternidad buscan la iluminación del propósito en la existencia , de todas las formas posibles, algunos recurren a la religión, otros al combate, otros se sumen en sus deseos , algunos comercian y otros simplemente se dedican a pasar la inmortalidad coleccionando cosas, mientras un muerto tenga un propósito, tiene una vida, la ascensión se da con la comprensión sobre la existencia y el dominio del camino elegido</p>
+            <div class="recua">
+            <img src="img/vida.jpeg" alt="mago">
+            <p>---</p>
+            </div>
+        </section>
+
+    </div>
+    <div class="conte">
+        <section id="sec6">
+            <h1 class="titulo-centralizado">Pandora Caos</h1>
+            <h4>Sin tormenta, no hay paz.</h4>
+            <p>un plano rodeado de energía caótica, sin forma, donde 5 de los 6 edictos casi no existen y por lo tanto no disfrutan del beneficio de estos, y donde solo reina el caos por lo tanto, los otros 6 pandoras no pueden pisar este plano., aquí no hay zona de mortales o de santos, aquí todos son mortales, no hay un mega planeta, hay galaxias llenas de estrellas como existen en nuestro universo , estrellas plagadas de vida inteligente, con sociedades muy avanzadas , sociedades galácticas, de imperios, federaciones , que interactúan entre si, cada cierta cantidad de años, es inevitable que surjan los conflictos entre las razas, y la raza que sobreviva de cada universo en estas guerras interestelares son las que ascienden, aquí la ascensión es de civilización, no como individuos, su finalidad es conseguir las razas con mayor resiliencia para ser usadas como vanguardia de batalla, sus campos de batalla después de cada conflicto interestelar son reciclados por sus reguladores, ayudados por los dioses donde depositan las semillas semi avanzadas para el próximo gran conflicto intergaláctico, por lo tanto, debido a la naturaleza del reciclaje en este plano, es totalmente común encontrar, pistas para que formen sus religiones, tecnologías de otras civilizaciónes, eras, o incluso, conocimiento inaplicable de los otros 6 pandoras, quizás como una broma cruel por parte de los dioses para reírse del miserable destino de los hijos del caos que nunca llegaran a ser seres verdaderamente poderosos como individuos, incluso, algunos han cometido la crueldad (no sin luego ser castigados) de explicar a los mortales la naturaleza de este plano, quitándoles toda esperanza de un progreso y la esperanza de un mañana dado que incluso si salen victoriosos es solo para ser un soldado de una aceitada máquina de guerra en carácter de guerras entre universos</p>
+            <div class="recua">
+            <img src="img/vida.jpeg" alt="mago">
+            <p>Supera tus limites, como los humanos superaron su miedo ala oscuridad</p>
+            </div>
+        </section>
+
+    </div>
+    
+    <div class="conte">
+        <section id="sec7">
+            <h1 class="titulo-centralizado">Pandora vida</h1>
+            <h4>La reencarnación no te ayudará si en la próxima encarnación sigues sin saber quién eres.</h4>
+            <p>El pandora de los eternos, el pandora sin muerte, donde sus habitantes no conocen las despedidas, pero tampoco los nacimientos, todo se trata de reencarnaciones cada vez que se “muere” el trabajo de cada individuo está dado por la estirpe del nacimiento, el que fue rey ayer puede despertarse hoy siendo un obrero de la construcción, y su posición es inamovible, los recuerdos de vidas pasadas son mantenidos, un reducto de cultura, pero también de estancamiento, de seguridad, pero también de falta de emociones, un mundo increíblemente complejo, y su objetivo de ascensión es aprender sobre la importancia de los ciclos, de las posiciones y los significados profundos</p>
+            <div class="recua">
+            <img src="img/vida.jpeg" alt="mago">
+            <p>Si crees en la reencarnación, no te rías de la fealdad del sapo.</p>
+            </div>
+        </section>
+
+    </div>
+</section>
+
+
+        
+        
+</body>
+
+</html>
